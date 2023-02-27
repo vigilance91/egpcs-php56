@@ -1,0 +1,35 @@
+{
+    "name": "vsn/egpcs",
+    "type": "library",
+    "time": "2020-08-20",
+    "description": "VSN EGPCS PHP 5.6 archive",
+    "keywords": ["VSN","VigilStudios","EGPCS","Environment","GET","POST","COOKIE","SESSION","PHP","PHAR","api","library","module","package","EGPCS","env","get","post","cookie","session","request","client","host"],
+    "homepage": "https://github.com/vigilance91/egpcs-phar56",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Tyler R. Drury",
+            "email": "that_canadianguy@hotmail.com",
+            "homepage": "https://vigilance91.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vsn\\": "build/"
+        }
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/vigilance"
+        },
+        {
+            "type": "ethereum",
+            "url": "https://etherscan.io/address/0x20fc7e34f4acfa8faec8edf0546c57cd77d76bfe"
+        }
+    ]
+}
